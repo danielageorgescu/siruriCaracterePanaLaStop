@@ -1,0 +1,19 @@
+package com.itfactory;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduceti textul: ");
+        String text = scanner.nextLine();
+        
+        while(!text.equalsIgnoreCase("stop")) {
+            System.out.println("Introduceti textul: ");
+            text = scanner.nextLine();
+        }
+        
+        System.out.println("Am iesit din program!");
+    }
+}sir
